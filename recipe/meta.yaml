@@ -1,5 +1,5 @@
 {% set name = "wagtail-modeladmin" %}
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail_modeladmin-{{ version }}.tar.gz
-  sha256: da545ba34747bff01c942b8306e20ac17d8a64d1873734cc8cf7303716af93fc
+  sha256: 3794c854b86d69ad1b2ec4f3ee5e6852ff8cb0505bd9151186ef26e0a88d84bc
 
 build:
   noarch: python
